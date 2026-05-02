@@ -1,10 +1,24 @@
-<DOCTYPE! html>
-    <head>
-        <script src="./ruffle.js"></script>
-        <title>ruffy test</title>
-    </head>
-    <body>
-        <object>
-            <embed src="bloonstd.swf" width="770" height="560" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"/>
-        </object>
-    </body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ruffy test</title>
+
+    <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            "autoplay": "on",
+            "warnOnUnsupportedContent": false
+        };
+    </script>
+
+    <script src="./ruffle.js"></script>
+</head>
+
+<body style="margin:0; display:flex; justify-content:center; align-items:center; height:100vh;">
+
+    <div id="container">
+        <embed src="bloonstd.swf" width="770" height="560"></embed>
+    </div>
+
+</body>
+</html>
