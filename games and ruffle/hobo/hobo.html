@@ -27,5 +27,16 @@
     <div id="container">
         <embed src="hobo.swf" width="770" height="580" type="application/x-shockwave-flash"></embed>
     </div>
+    <a>
+        <textarea id="textBox" placeholder="password saver input"></textarea>
+        password holder that saves!
+    </a>
+    <script>
+        const ta = document.getElementById('textBox');
+        ta.value = localStorage.getItem('savedText') || '';
+        ta.addEventListener('input', () => {
+        localStorage.setItem('savedText', ta.value);
+        });
+    </script>
 </body>
 </html>
