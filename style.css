@@ -95,6 +95,7 @@
     width: 100%;
     text-align: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .gamesy {
