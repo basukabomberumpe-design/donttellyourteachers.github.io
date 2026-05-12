@@ -109,6 +109,24 @@
     transform: scale(1.1);
 }
 
+.quick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quicksy {
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+    transition: all 0.35s ease;
+}
+
 body {
     font-family: "Roboto";
     background-color: #5e7594;
