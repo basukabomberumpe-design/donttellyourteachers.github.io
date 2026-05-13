@@ -121,10 +121,11 @@
 }
 
 .quicksy {
-    width: 311px;
-    height: 175px;
-    border-radius: 10px;
-    transition: all 0.35s ease;
+  width: 170px;
+  height: 90px;
+  border-radius: 15px;
+  margin-top: 10px;
+  transition: 0.2s;
 }
 
 body {
