@@ -130,6 +130,32 @@
   transition: 0.2s;
 }
 
+.thingys {
+  margin-right: auto;
+  grid-gap: 2rem;
+  top: 105px;
+  left: 2%;
+  right: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9vh;
+}
+
+.thingy {
+  transition: 0.3s;
+  border-radius: 30px;
+  width: 30%;
+  height: 250px;
+  color: white;
+  background-color: #7a8fab;
+  max-height: 100%;
+  border: none;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
 body {
     font-family: "Roboto";
     background-color: #5e7594;
