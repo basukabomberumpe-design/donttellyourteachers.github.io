@@ -146,7 +146,7 @@
 .thingy {
   transition: 0.3s;
   border-radius: 30px;
-  width: 30px;
+  width: 30%;
   height: 250px;
   color: white;
   background-color: #84878c;
