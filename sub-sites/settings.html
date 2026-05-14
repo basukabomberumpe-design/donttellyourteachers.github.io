@@ -5,6 +5,7 @@
         <meta charset="UTF-8" />
         <title>Google</title>
         <link rel="stylesheet" href="../style.css" />
+        <link href="../js/customizer.js">
         <link rel="icon" type="image/png" href="https://www.gstatic.com/images/branding/searchlogo/ico/favicon.ico"/>
         <script src="https://kit.fontawesome.com/19b444568b.js" crossorigin="anonymous"></script>
     </head>
@@ -24,5 +25,5 @@
                 </form>
             </div>
         </div>
-        <script>function setTitle(value) {document.title = value || "The Hub";}</script>
+        <script>function setTitle(value) {document.title = value || "The Hub"; localStorage.setItem(value)};</script>
     </body>
