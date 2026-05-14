@@ -152,8 +152,12 @@
   background-color: #7a8fab;
   max-height: 100%;
   border: none;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: black;
+  box-shadow: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .form {
