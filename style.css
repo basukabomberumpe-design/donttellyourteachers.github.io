@@ -21,13 +21,13 @@
 .title-main:hover {
     transform: scale(1.5);
 }
-.title-sub {
+.fact {
     display: inline-block;
     transition: all 0.3s ease;
     transform-origin: center;
     margin-top: -1rem;
 }
-.title-sub:hover {
+.fact:hover {
     transform: scale(1.4);
 }
 #sub {
