@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .title {
     font-family: "Roboto";
-    font-size: 4rem;
+    font-size: 6rem;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
     cursor: default;
     margin: 10vh auto 0;
     width: min(100%, 1000px);
+    font-weight: 700;
 }
 .title-main {
     display: inline-block;
