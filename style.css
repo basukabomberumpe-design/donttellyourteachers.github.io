@@ -179,4 +179,5 @@ body {
     background-color: #5e7594;
     color: white;
     cursor: url('./assets/cu.png'), auto;
+    user-select: none;
 }
